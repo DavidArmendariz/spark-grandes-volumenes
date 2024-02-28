@@ -5,9 +5,9 @@ name = "pip_conf_index_global"
 
 [packages]
 notebook = "~=7.1.0"
-pyspark = {extras = ["sql"], version = "~=3.5.0"}
+pyspark = "~=3.5.0"
+numpy = "~=1.26.4"
+matplotlib = "~=3.8.3"
+pandas = "~=2.2.1"
 
 [dev-packages]
-
-[requires]
-python_version = "3.11"
